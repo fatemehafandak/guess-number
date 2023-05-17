@@ -1,5 +1,5 @@
 # guess-number
-- [Demo Project](https://pouria-farahani-developer.github.io/Accordion-Menu-By-React/)
+- [Demo Project](https://fatemehafandak.github.io/guess-number/)
 
 - Developed by fateme afandak
 - Technologies Used - Html , css , js ,bootstrap
