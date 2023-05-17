@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+@font-face {
+    font-family: funny;
+    src: url(../assets/sunny-spells-basic-font/SunnySpellsBasicRegular-Yz1Wv.ttf);
+}
+.img{
+    height: 100px;
+}
+label{
+font-family:'Times New Roman', Times, serif;
+font-size: 20px;
+}
+.box{
+    background-image: linear-gradient(60deg,rgb(90, 6, 6),rgb(9, 9, 128));
+}
+input{
+    background-color: rgba(97, 147, 241, 0.6);
+    border: .5px solid purple;
+    color: rgb(59, 9, 9);
+    
+}
+
+.answer img{
+    width: 100%;
+    height:100%;
+
+}
+.btns{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+background-color: rgba(168, 186, 221, 0.5);
+}
+.guess{
+    width: 60px;
+    height: 60px;
+}
+.anw-1{
+    color: white;
+}
+.anw-1 span:nth-child(1){
+    font-family:'Times New Roman', Times, serif;
+}
+.anw-1 span:nth-child(2){
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.anw-2{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+.anime{
+    animation: fade .5s linear  2;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    50%{
+        opacity: .5;
+        transform: scale(8);
+    }
+    to{
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+.reaction{
+    background-color: rgba(62, 163, 62, 0.6);
+    
+    display: none;
+}
+.r{
+    border: 3px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+
+.bt{
+    border: none;
+    background-color: rgb(39, 104, 104);
+    border-radius: 5px;
+    padding: 5px;
+}
